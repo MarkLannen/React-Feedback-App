@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import Card from "./shared/Card";
 
 function FeedbackItem({ item, handleDelete }) {
-  const handleClick = (id) => {
-    console.log(id);
-  };
+  // const handleClick = (id) => {
+  //   console.log(id);
+  // };
 
   return (
     <Card>
